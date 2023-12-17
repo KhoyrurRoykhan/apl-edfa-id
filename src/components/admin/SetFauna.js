@@ -306,7 +306,7 @@ const truncatedDescription = (description) => {
                   </div>
 
                   <label>Kategori 2:</label>
-                      `<div className="btn-group">
+                      <div className="btn-group">
                         <input
                           type="radio"
                           className="btn-check"
@@ -390,7 +390,7 @@ const truncatedDescription = (description) => {
                         <label className="btn btn-secondary" htmlFor="serangga" data-mdb-ripple-init>
                           Serangga
                         </label>
-                      </div>`
+                      </div>
                 <label>Deskripsi:</label>
                 <CKEditor
                   editor={ClassicEditor}
