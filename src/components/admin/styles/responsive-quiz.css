@@ -1,0 +1,140 @@
+/* SetQuizResponsive.css */
+@media (max-width: 767px) {
+    .setfauna-container {
+      max-width: 1200px;
+      margin: 100px auto 20px auto; /* Atur margin kiri dan kanan agar konten tetap ditengah */
+      padding-left: 20px; /* Padding kiri untuk konten agar tidak terlalu ke kiri */
+      padding-right: 20px; /* Padding kanan untuk konten agar tidak terlalu ke kanan */
+      width: 100%;
+      }
+      open {
+        left: 50%; 
+       
+        transform: translateX(-50%);
+      }
+    modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+    
+      .modal-content {
+        background-color: #fefefe;
+        margin: 20% auto;
+        margin-right: 20px;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 100%;
+      }
+    
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+    
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+    .table {
+        width: 100%;
+        overflow-x: auto;
+        margin-left: auto; 
+        margin-right: auto; 
+        max-width: 1000px; 
+    }
+    .table tbody tr {
+        display: block;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+    }
+
+    .table tbody td {
+        display: block;
+        text-align: left;
+        width: 50%;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .addButton {
+        background-color: #3498db;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .searchInput {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+    }  
+    .btn-primary1 {
+      width: 30%;
+      margin-bottom: 10px;
+      background-color: #3498db;
+    }
+    .cetak {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+}
+.btn-primary1{
+  background-color: #3498db;
+  color: white;
+}
+@media (min-width: 768px) {
+  .btn-primary1 {
+    width: 30%;
+    margin-bottom: 10px;
+    background-color: #3498db;
+  }
+  .cetak {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+
+.btn-check {
+  width: 100%; 
+}
+
+
+@media screen and (min-width: 768px) {
+  .btn-group {
+    flex-direction: row; 
+  }
+
+  .btn-check {
+    width: 50px; 
+  }
+}
+
+
