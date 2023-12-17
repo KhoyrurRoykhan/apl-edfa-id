@@ -339,7 +339,7 @@
               onChange={handleInputChange}
               value="Kalimantan"
             />
-            <label className="btn btn-secondary" htmlFor="paket-kalimantan" data-mdb-ripple-init>
+            <label className="btn btn-secondary" htmlFor="paket-kalimantan">
               Kalimantan
             </label>
 
@@ -353,7 +353,7 @@
                 onChange={handleInputChange}
                 value="Sulawesi"
               />
-              <label className="btn btn-secondary" htmlFor="paket-sulawesi" data-mdb-ripple-init>
+              <label className="btn btn-secondary" htmlFor="paket-sulawesi">
                 Sulawesi
               </label>
 
@@ -367,7 +367,7 @@
                 onChange={handleInputChange}
                 value="Sumatera"
               />
-              <label className="btn btn-secondary" htmlFor="paket-sumatera" data-mdb-ripple-init>
+              <label className="btn btn-secondary" htmlFor="paket-sumatera">
                 Sumatera
               </label>
 
@@ -381,7 +381,7 @@
                 onChange={handleInputChange}
                 value="Jawa"
               />
-              <label className="btn btn-secondary" htmlFor="paket-jawa" data-mdb-ripple-init>
+              <label className="btn btn-secondary" htmlFor="paket-jawa" >
                 Jawa
               </label>
 
@@ -395,7 +395,7 @@
                 onChange={handleInputChange}
                 value="Papua"
               />
-              <label className="btn btn-secondary" htmlFor="paket-papua" data-mdb-ripple-init>
+              <label className="btn btn-secondary" htmlFor="paket-papua" >
                 Papua
               </label>
 
@@ -409,7 +409,7 @@
                 onChange={handleInputChange}
                 value="Nusantara"
               />
-              <label className="btn btn-secondary" htmlFor="paket-nusantara" data-mdb-ripple-init>
+              <label className="btn btn-secondary" htmlFor="paket-nusantara" >
                 Nusantara
               </label>
             </div>
