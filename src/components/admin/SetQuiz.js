@@ -329,19 +329,19 @@
               />
               <label>Paket</label>
              <div className="btn-group">
-              <input
-                type="radio"
-                className="btn-check"
-                name="paket"
-                id="paket-kalimantan"
-                autoComplete="off"
-                checked={formData.paket === 'Kalimantan'}
-                onChange={handleInputChange}
-                value="Kalimantan"
-              />
-              <label className="btn btn-secondary" htmlFor="paket-kalimantan" data-mdb-ripple-init>
-                Kalimantan
-              </label>
+             <input
+              type="radio"
+              className="btn-check"
+              name="paket"
+              id="paket-kalimantan"
+              autoComplete="off"
+              checked={formData.paket === 'Kalimantan'}
+              onChange={handleInputChange}
+              value="Kalimantan"
+            />
+            <label className="btn btn-secondary" htmlFor="paket-kalimantan" data-mdb-ripple-init>
+              Kalimantan
+            </label>
 
               <input
                 type="radio"

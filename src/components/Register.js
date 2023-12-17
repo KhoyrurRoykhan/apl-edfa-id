@@ -14,12 +14,12 @@ const Register = () => {
 
     useEffect(() => {
         // Cek status sesi ketika komponen dimuat
-        const loggedIn = localStorage.getItem('loggedIn');
+        // const loggedIn = localStorage.getItem('loggedIn');
 
-        if (!loggedIn) {
-            // Jika belum masuk, arahkan kembali ke halaman login
-            navigate("/login");
-        }
+        // if (!loggedIn) {
+        //     // Jika belum masuk, arahkan kembali ke halaman login
+        //     navigate("/login");
+        // }
     }, [navigate]);
 
     const handleRegister = async (e) => {

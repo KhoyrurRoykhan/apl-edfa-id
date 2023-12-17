@@ -44,12 +44,15 @@ const Login = () => {
             if (response.data.isPasswordValid) {
                
                 navigate("/register");
+                console.log("valid");
             } else {
                 setMsg('Invalid registration password.');
                 hideRegisterPopup();
+                
             }
         } catch (error) {
           console.error('Error registering:', error);
+          console.log("tidak valid");
           if (error.response) {
             setMsg(error.response.data.error);
           }
