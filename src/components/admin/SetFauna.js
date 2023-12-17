@@ -185,7 +185,7 @@ const truncatedDescription = (description) => {
   // Membersihkan tag HTML dengan regex
   const cleanedDescription = description.replace(/<[^>]*>/g, ' ');
   // Memotong teks setelah 50 karakter
-  return cleanedDescription.substring(0, 50);
+  return cleanedDescription.substring(0, 70);
 };
 
   
@@ -453,11 +453,11 @@ const truncatedDescription = (description) => {
                   />
                 </td>
                 <td>{fauna.name}</td>
-                <td dangerouslySetInnerHTML={{ __html: truncatedDescription(fauna.description) }}></td>
+                <td dangerouslySetInnerHTML={{ __html: truncatedDescription(fauna.description) + '...' }}></td>
                 <td>{fauna.kategori_1}</td>
                 <td>{fauna.kategori_2}</td>
-                <td>{fauna.desc_habitat}</td>
-                <td>{fauna.desc_populasi}</td>
+                <td>{truncatedDescription(fauna.desc_habitat)}</td>
+                <td>{truncatedDescription(fauna.desc_populasi)}</td>
                 <td className="text-center">
                   <div className="btn btn-info mr-3" onClick={() => openEditModal(fauna.id)}>
                     Edit
