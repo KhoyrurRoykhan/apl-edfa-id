@@ -456,8 +456,8 @@ const truncatedDescription = (description) => {
                 <td dangerouslySetInnerHTML={{ __html: truncatedDescription(fauna.description) + '...' }}></td>
                 <td>{fauna.kategori_1}</td>
                 <td>{fauna.kategori_2}</td>
-                <td>{truncatedDescription(fauna.desc_habitat)}</td>
-                <td>{truncatedDescription(fauna.desc_populasi)}</td>
+                <td>{truncatedDescription(fauna.desc_habitat) + '...'}</td>
+                <td>{truncatedDescription(fauna.desc_populasi) + '...'}</td>
                 <td className="text-center">
                   <div className="btn btn-info mr-3" onClick={() => openEditModal(fauna.id)}>
                     Edit
