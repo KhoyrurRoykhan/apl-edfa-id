@@ -7,6 +7,8 @@ import swDev from './swDev';
 import 'lazysizes';
 import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 import './index.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 axios.defaults.withCredentials = true;
